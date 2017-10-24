@@ -47,7 +47,6 @@ public interface SimpleStack {
         if(stack.isEmpty()) {
             throw new EmptyStackException();
         }
-        Item removed = stack.remove(stack.size()-1);
-        return removed;
+        return stack.remove(stack.size()-1);
     }
 }
