@@ -3,6 +3,7 @@ import static org.junit.Assert.*;
 
 /**
  * Test Unitaire de la classe Item
+ * Test unitaire à terminer #2
  */
 public class ItemTest {
     Item item = new Item(4);
